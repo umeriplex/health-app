@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name" translatable="false">Fit Raho</string>
+    <string name="UW" translatable="false">Being underweight could be a sign you\'re not eating enough or you may be ill. If you\'re underweight, we are providing best Diet for under weighted person.</string>
+    <string name="HW" translatable="false">Keep up the good work! For tips on maintaining a healthy weight, check out the our app.</string>
+    <string name="OW" translatable="false">The best way to lose weight if you\'re overweight is through a combination of diet and exercise. So don\'t take tension we have best Diet for you.</string>
+    <string name="O" translatable="false">The best way to lose weight if you\'re obese is through a combination of diet and exercise, and, in some cases, medicines. We are also providing Diet plan for Obese people.</string>
+    <string name="EO" translatable="false">You should go to the Doctor.</string>
+    <string name="uw_diet_header">Daily diet except daily routine food</string>
+    <string name="breakfast">take 1 bowl oats with milk in the morning. after 1,2 hours do your daily break fast.</string>
+    <string name="eggs">take 2,3 boiled eggs before exercise.</string>
+    <string name="banana">take at least 2 or 3 glass of banana milk shake.</string>
+    <string name="butter">take peanut butter with 2 slice any time of the day.</string>
+    <string name="morning">Morning</string>
+    <string name="before_exercise">before exercise</string>
+    <string name="after_exercise">after exercise</string>
+    <string name="after_exercise_text">after exercise take half or one plat of boiled rice, 2 boiled potato, 100 grams of red beans and 250 gram one day chicken one day beef meat.</string>
+    <string name="skip">skip sunday, on sunday eat what ever you want.</string>
+    <string name="at_night">at night</string>
+    <string name="after_wake_up">after wake up</string>
+    <string name="zeera">before sleep at night take 1/4 spoon of white cumin put it on a glass of water and left it for a night, after wake up in the morning drink that water only. and after 20 to 40 mints do break fast</string>
+    <string name="break_fast_ow">break fast</string>
+    <string name="bf_diet">in break fast take one glass of milk or some Yoghurt, 1 boiled egg, 1 any fruit and green tea.</string>
+    <string name="lunch">lunch</string>
+    <string name="evening">evening</string>
+    <string name="eat_any_fruit">eat any fruit.</string>
+    <string name="dinner">dinner</string>
+    <string name="_2_days_in_a_week">2 days in a week</string>
+    <string name="take_any_vegetable_s_salan_with_1_roti_bread">take any vegetable`s salan with 1 roti/bread.</string>
+    <string name="_2_days_in_a_week_eat_any_one_of_the_given_in_your_dinner_red_beans_vegetable_salad_chicken_salan_soup_or_boiled_grams_chana">2 days in a week eat any one of the given in your dinner : red beans, vegetable salad, chicken salan/soup or boiled grams/chana.</string>
+    <string name="potato_paratha_junk_food_and_rice">potato, paratha, junk food and rice.</string>
+    <string name="thing_do_not_eat">things do not eat</string>
+    <string name="repeat_lunch_diet">repeat lunch diet.</string>
+    <string name="follow_the_given_diet">follow the given diet</string>
+    <string name="ob_bf_bfd">1 Whole Egg 3 Egg Whites 1 Slice Brown Bread 5 Almonds 1 Cup Tea (optional) Use low fat milk and artificial sweetener or Half cup regular Milk. DIRECTIONS: Eggs must be prepared in non-stick pan(without oil) and can be consumed in any form (Boiled,Fried or Omelette). You can add spices of your own choice. For omelette , can add little amount of onion and tomato.</string>
+    <string name="for_lunch_amp_dinner"><![CDATA[FOR LUNCH & DINNER]]></string>
+    <string name="ob_ld_d">In case of Roti 2 Computer CD size Roti or Half regular Roti. Gravy (salan) Daal, Chana or Vegetable Gravy = 5 tablespoons. Chicken,Mutton,Beaf or Fish = 2 Palm Size. Green Vegetables as Salad = 1 Bowl. Greek yogurt = 4-5 tablespoons. Regular yogurt = 2-3 tablespoons. Avoid oil in meals as much as you can. In case of Rice Pulao, Biryani etc = 12 tablespoons Boiled Rice = 6 tablespoons with gravy mentioned above.</string>
+    <string name="fruits">FRUITS</string>
+    <string name="ob_f_d">You can take fruits 2 times a day but the fruits must be of your fist size.</string>
+    <string name="instructions">INSTRUCTIONS</string>
+    <string name="on_ins_d">To control your cravings, use green tea, black coffee, green vegies as salad and lots of water. Keep your Vitamin D levels sufficient for an effective fat loss. Try to use pure desi ghee, pure butter, olive oil or coconut oil in your meals.</string>
+    <string name="tea">TEA (optional)</string>
+    <string name="ob_tea_d">You can have 2 cups of low fat milk and artificial sweetener tea other than 1 cup in breakfast.</string>
+    <string name="here_is_a_1500_calories_fat_loss_diet_plan">Here is a 1500 calories fat loss diet plan</string>
+    <string name="meal_1">MEAL 1 (Breakfast)</string>
+    <string name="meal1d">take two slices of brown bread and you have to take 4 eggs. 2 whole eggs and 2 without yolk and then you have to take a 1 table spoon of Desi ghee and if you want to make a tasty omelet you have to add a onion slice and some tomato slices and some spices of your choice. |calories=410|</string>
+    <string name="meal_2_chicken_salad">meal 2 (CHICKEN SALAD)</string>
+    <string name="meal2d">take 100g chicken breast.and 12 almonds and 1 cucumber with 80g sliced Onion,sliced tomatoes and take 1 table spoon of olive oil n vinegar and some green leafy vegetables. |calories=305|</string>
+    <string name="meal3d">Take 120g beef mince and 1 chapati 7\' dia or 100g boil rice and 100g green peas and add a 1 table spoon of olive oil. now add some 10g chopped garlic in the pan, vinegar to taste, pink salt and spices of your own choice. |calories=465|</string>
+    <string name="meal_4_banana_smoothie">meal 4 (BANANA SMOOTHIE)</string>
+    <string name="meal4d">BANANA SMOOTHIE....take half cup of milk and half cup of water and add 1 banana, 1 table spoon basil seeds and yogurt (100g). |calories=310|</string>
+    <string name="total_calories_1500">TOTAL CALORIES = 1500</string>
+    <string name="notebelly">NOTE: You can take any meal any time but not breakfast. You have to consume ( Meal#1 ) as a breakfast.</string>
+    <string name="meal_3_beef_mince">meal 3 (beef mince)</string>
+    <string name="chinheader">Here are six exercises that may help strengthen and tone the muscles and skin in the area of your double chin. Unless otherwise indicated, repeat each exercise several times daily. Always consult with your doctor before trying a new exercise.</string>
+</resources>

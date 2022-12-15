@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/drawable/belly_header_color.xml" value="0.1685" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/drawable/chin_header_color.xml" value="0.2115" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/drawable/et_bg.xml" value="0.1935" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/drawable/g_1.xml" value="0.1935" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/drawable/gander_bg_selector.xml" value="0.133" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/drawable/gander_checked_bg.xml" value="0.1965" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/drawable/gander_unchecked_bg.xml" value="0.133" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/drawable/gone.xml" value="0.1935" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/drawable/ic_me.xml" value="0.1685" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/drawable/obese_header_color.xml" value="0.133" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/drawable/ow_header_color.xml" value="0.133" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/drawable/rounded_bg.xml" value="0.1935" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/drawable/shoulder_header_color.xml" value="0.184" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/drawable/splash_grad.xml" value="0.2115" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/drawable/uw_header_color.xml" value="0.133" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/drawable/white_bg_et.xml" value="0.133" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/layout/activity_belly.xml" value="0.25" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/layout/activity_calorie.xml" value="0.25" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/layout/activity_chin.xml" value="0.22" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/layout/activity_obese.xml" value="0.25" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/layout/activity_over_weight.xml" value="0.25" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/layout/activity_plash.xml" value="0.25" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/layout/activity_shoulder.xml" value="0.25" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/layout/activity_under_weight.xml" value="0.25" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/layout/bmi_details.xml" value="0.33" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/layout/chin_item.xml" value="0.25" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/layout/contact_me_dialoge.xml" value="0.5" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/layout/dialoge_layout.xml" value="0.33" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/layout/sp_item.xml" value="0.203125" />
+        <entry key="..\:/Android Studio/FitRaho/app/src/main/res/menu/menu.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

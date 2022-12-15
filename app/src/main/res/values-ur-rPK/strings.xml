@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uw_diet_header">"روزانہ کی خوراک معمول کے کھانوں کے علاوہ "</string>
+    <string name="breakfast">"صبح اٹھنے کے بعد ایک پیالہ جو کا دلیہ دودھ کے ساتھ کھائیں اور پھر ایک دو گھنٹے بعد ناشتہ کر لیں "</string>
+    <string name="eggs">" ایکسرسائز سے پہلے دو یا تین انڈے اوبال کر کھائیں"</string>
+    <string name="banana">"رات کو کیلے کا جوس کم سے کم دو یا تین گلاس پئے "</string>
+    <string name="butter">"دن میں کسی بھی ٹائم پی نٹ بٹر دو سلائس کے ساتھ کھائیں "</string>
+    <string name="morning">"صبح "</string>
+    <string name="before_exercise">" ایکسرسائز سے پہلے"</string>
+    <string name="after_exercise">" ایکسرسائز کے بعد"</string>
+    <string name="after_exercise_text">"ایکسرسائز کے بعد ایک پلیٹ ابلے ہوئے چاول اور دو ابلے ہوئے آلو سو گرام لال لوبیا  اور دو سو پچاس گرام ایک دن چکن اور ایک دن گوشت کھائیں "</string>
+    <string name="skip">" اتوار کے دن ریسٹ کریں اور جو دل کرے وہ کھائیں"</string>
+    <string name="at_night">" رات میں"</string>
+    <string name="after_wake_up">صبح اٹھنے کے بعد</string>
+    <string name="zeera">"رات کو سونے سے پہلے گلاس میں پانی اور ایک چوتھائی چمچ سفید زیرا ڈال کر چھوڑ دیں اور صبح اٹھ کر پانی کو پی جائیں اور زیرہ  پھینک دے "</string>
+    <string name="break_fast_ow">" صبح کا ناشتہ"</string>
+    <string name="bf_diet">صبح کے ناشتے میں ایک گلاس دودھ یا پھر دہی اور ایک ابلا ہوا انڈا اور ایک کوئی سا پھل اور گرین ٹی پئے</string>
+    <string name="lunch">" دوپہر کا کھانا"</string>
+    <string name="evening">" شام میں"</string>
+    <string name="eat_any_fruit">"کوئی سا ایک پھل کھائیں "</string>
+    <string name="dinner">" رات کا کھانا"</string>
+    <string name="_2_days_in_a_week">" ہفتے میں دو دن یہ خوراک لیں"</string>
+    <string name="take_any_vegetable_s_salan_with_1_roti_bread">" کسی بھی سبزی کا سالن اور ایک روٹی کھائیں"</string>
+    <string name="_2_days_in_a_week_eat_any_one_of_the_given_in_your_dinner_red_beans_vegetable_salad_chicken_salan_soup_or_boiled_grams_chana">" ہفتے میں دو دن رات کے کھانے میں ان میں سے کوئی ایک خوراک شامل کریں : ابلے ہوئے چنے, چکن کا سالن, سبزی کی سلاد, لال لوبیا "</string>
+    <string name="potato_paratha_junk_food_and_rice">"الو, پراٹھے, چاول, فاسٹ فوڈ "</string>
+    <string name="thing_do_not_eat">یہ چیزیں نہیں کھانی</string>
+    <string name="repeat_lunch_diet">دن والی خوراک  دہرائے</string>
+    <string name="follow_the_given_diet">"  دی گئی خوراک کو فالو کریں"</string>
+    <string name="ob_bf_bfd">"ایک پورا انڈا تین انڈے کی سفیدی ایک سلائس  براون بریڈپانچ بادام  اور اگردل کرے تو ایک کپ چائے بھی لے سکتے ہیں مگر کم شوگر اور دودھ کے ساتھ "</string>
+    <string name="for_lunch_amp_dinner">"دن اور رات کا کھانا "</string>
+    <string name="ob_ld_d">"اگر آپ روٹی کھانا چاہتے ہیں تو دو کمپیوٹر سی ڈی سائز کی روٹی اور آدھی نارمل سائز کی    روٹی ليں اور سالن میں : پانچ ٹیبل اسپون دال یا پھر چنا یا پھر سبزی بنائیں, یا پھر دو پیس اپنی ہتھیلی کے برابر چکن یا پھر مٹن یا پھر بیف بنائیں, یا پھر ہری سبزی کا سلاد ایک باؤل بنائیں, یا پھر دو سے تین چمچ دہی ليں.  اور اگر آپ چاول کھانا چاہتے ہیں تو چھ ٹیبل اسپون ابلے ہوئے چاول  کے ساتھ اوپر بتائے گئے سالن یا پھر بارہ ٹیبل اسپون بریانی اور پلاؤ کھا سکتے ہیں . اپنی خوراک میں آئل کا استعمال کم سے کم کریں.  "</string>
+    <string name="fruits">پھل</string>
+    <string name="ob_f_d">"فروٹ آپ دن میں دو مرتبہ کھا سکتے ہیں مگر فروٹ کا سائز آپ کے مکے سے بڑا نہیں ہونا چاہیے "</string>
+    <string name="instructions">" ضروری ہدایات"</string>
+    <string name="on_ins_d">"اپنی کھانے کی خواہشات کو قابو کرنے کے لیے آپ گرین ٹی بلیک کافی اور ہری سبزی کا سالاداور خوب سارا پانی پئے, اور موٹاپے میں بہتر کمی کے لیے اپنے وٹامن ڈی کے لیول کو مناسب رکھیں, اپنی خوراک میں خالص دیسی گھی خالص مکھن اور اولیو آئل اور کھوپرے کا تیل استعمال کرنے کی کوشش کریں "</string>
+    <string name="tea">"چائے (غیر ضروری) "</string>
+    <string name="ob_tea_d">.صبح کے ناشتے کے علاوہ آپ دو کپ چائے اور پی سکتے ہیں مگر کم شوگر, دودھ والی</string>
+    <string name="meal1d">براؤن بریڈ کے دو سلائس لیں اور آپ کو 4 انڈے لینے ہوں گے۔ 2 پورے انڈے اور 2 بغیر زردی کے اور پھر آپ کو ایک کھانے کا چمچ دیسی گھی لینا ہوگا اور اگر آپ مزیدار آملیٹ بنانا چاہتے ہیں تو آپ کو پیاز کا ایک ٹکڑا اور کچھ ٹماٹر کے ٹکڑے اور اپنی پسند کے کچھ مصالحے ڈالنے ہوں گے۔</string>
+    <string name="meal_1">"میل 1 (ناشتہ) "</string>
+    <string name="meal_2_chicken_salad">میل 2 (چکن سالاد)</string>
+    <string name="meal_3_beef_mince">"میل 3 (بیف قیمہ) "</string>
+    <string name="meal2d">100 گرام چکن بریسٹ لیں اور 12 بادام اور 1 کھیرا اور 80 گرام کٹی پیاز، کٹے ہوئے ٹماٹر اور 1 ٹیبل اسپون زیتون کا تیل اور سرکہ اور کچھ سبز پتوں والی سبزیاں لیں۔ |کیلوریز=305|</string>
+    <string name="meal3d">120 گرام بیف کا قیمہ اور 1 چپاتی یا 100 گرام ابالے چاول اور 100 گرام سبز مٹر لیں۔ اور ایک کھانے کا چمچ زیتون کا تیل ڈالیں۔ اب پین میں 10 گرام کٹا لہسن، حسب ذائقہ سرکہ، گلابی نمک اور اپنی پسند کا مصالحہ ڈالیں۔ |calories=465|</string>
+    <string name="meal_4_banana_smoothie">"میل 4 (کیلے کی اسموتھی) "</string>
+    <string name="meal4d">آدھا کپ دودھ اور آدھا کپ پانی لیں اور اس میں 1 کیلا، 1 کھانے کا چمچ تلسی کے بیج اور دہی (100 گرام) ڈالیں۔ |calories=310|</string>
+    <string name="total_calories_1500">کل کیلوریز = 1500</string>
+    <string name="notebelly">"آپ دی گئی میل آگے پیچھے اوقات میں کھا سکتے ہیں, مگر میل 1 آپ نے ناشتے میں ہی لینی ہے. "</string>
+    <string name="here_is_a_1500_calories_fat_loss_diet_plan">1500 کیلوری چربی کم کرنے والی خوراک</string>
+</resources>

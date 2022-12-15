@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activities.CalorieActivity">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linearLayoutCompat2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/adView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/uw_header_color"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="3"
+                android:fontFamily="@font/convergence"
+                android:padding="8dp"
+                android:text="calculate your calories"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tip: "
+                        android:textColor="@color/purple_500"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Adult females need anywhere from 1,600 to 2,400 calories a day and adult males need anywhere from 2,000 to 3,000 calories a day."
+                        android:textColor="@color/color"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/light_grey"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checkedButton="@id/male"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/male"
+                            android:layout_width="90dp"
+                            android:layout_height="40dp"
+                            android:layout_marginRight="8dp"
+                            android:background="@drawable/gander_bg_selector"
+                            android:button="@android:color/transparent"
+                            android:drawableLeft="@drawable/male"
+                            android:gravity="center"
+                            android:paddingLeft="5dp"
+                            android:text="Male"
+                            android:textColor="@color/gander_text_selector"
+                            app:drawableTint="@color/gander_text_selector" />
+
+                        <RadioButton
+                            android:id="@+id/female"
+                            android:layout_width="90dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/gander_bg_selector"
+                            android:button="@android:color/transparent"
+                            android:drawableLeft="@drawable/female"
+                            android:gravity="center"
+                            android:text="Female"
+                            android:textColor="@color/gander_text_selector"
+                            app:drawableTint="@color/gander_text_selector" />
+
+
+                    </RadioGroup>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/age"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="6dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/white_bg_et"
+                            android:hint="Age"
+                            android:inputType="number"
+                            android:padding="10dp"
+                            android:textColor="@color/color"
+                            android:textColorHint="@color/hintColor"
+                            android:textSize="12sp" />
+
+                        <EditText
+                            android:id="@+id/weight"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/white_bg_et"
+                            android:hint="weight in kg"
+                            android:inputType="number"
+                            android:padding="10dp"
+                            android:textColor="@color/color"
+                            android:textColorHint="@color/hintColor"
+                            android:textSize="12sp" />
+
+                        <EditText
+                            android:id="@+id/height"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/white_bg_et"
+                            android:hint="height in cm"
+                            android:inputType="number"
+                            android:padding="10dp"
+                            android:textColor="@color/color"
+                            android:textColorHint="@color/hintColor"
+                            android:textSize="12sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/aldrich"
+                            android:text="How active are you ?"
+                            android:textColor="@color/color"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioGroup
+                            android:id="@+id/radioGroupActivity"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:checkedButton="@id/s"
+                            android:orientation="vertical">
+
+                            <RadioButton
+                                android:id="@+id/s"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="8dp"
+                                android:background="@drawable/white_bg_et"
+                                android:buttonTint="@color/purple_500"
+                                android:text="Sedentary (little or no exercise)"
+                                android:textColor="@color/color" />
+
+                            <RadioButton
+                                android:id="@+id/l"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="8dp"
+                                android:background="@drawable/white_bg_et"
+                                android:buttonTint="@color/purple_500"
+                                android:text="Light Activity (light exercise/sports 1-3 days/week)"
+                                android:textColor="@color/color" />
+
+                            <RadioButton
+                                android:id="@+id/m"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="8dp"
+                                android:background="@drawable/white_bg_et"
+                                android:buttonTint="@color/purple_500"
+                                android:text="Moderate Activity (moderate exercise/sports 3-5 days/week)"
+                                android:textColor="@color/color" />
+
+                            <RadioButton
+                                android:id="@+id/v"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="8dp"
+                                android:background="@drawable/white_bg_et"
+                                android:buttonTint="@color/purple_500"
+                                android:text="Very Active (very hard exercise/sports &amp; a physical job)"
+                                android:textColor="@color/color" />
+
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btnCal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/purple_500"
+                            android:text="Calculate"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white" />
+
+                        <LinearLayout
+                            android:id="@+id/resLay"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:visibility="invisible">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="4dp"
+                                android:text="You burn"
+                                android:textColor="@color/color" />
+
+                            <TextView
+                                android:id="@+id/calRes"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="4dp"
+                                android:text="3470"
+                                android:textColor="@color/purple_500" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="4dp"
+                                android:text="calories during a typical day."
+                                android:textColor="@color/color" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </ScrollView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="FULL_BANNER"
+        app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </com.google.android.gms.ads.AdView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

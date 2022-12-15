@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    android:elevation="5dp"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aldrich"
+                    android:gravity="center"
+                    android:text="BMI RANGES"
+                    android:textColor="@color/color"
+                    android:textStyle="bold"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="If your BMI is :"
+                    android:textSize="18sp"
+                    android:textColor="@color/color"
+                    android:textAllCaps="true"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:textAllCaps="true"
+                        android:textColor="#009688"
+                        android:textSize="12sp"
+                        android:text="below 18.5 – you're in the underweight range"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="7dp"
+                        android:textAllCaps="true"
+                        android:textColor="@color/green"
+                        android:textSize="12sp"
+                        android:text="between 18.5 and 24.9 – you're in the healthy weight range"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:textAllCaps="true"
+                        android:textColor="#FFC107"
+                        android:textSize="12sp"
+                        android:text="between 25 and 29.9 – you're in the overweight range"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:textAllCaps="true"
+                        android:textColor="@color/red"
+                        android:textSize="12sp"
+                        android:text="between 30 and 39.9 – you're in the obese range"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    android:elevation="5dp"
+    android:layout_margin="8dp"
+    android:padding="8dp"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/fit"
+            android:layout_margin="8dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/res"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your BMI is "
+            android:textAllCaps="true"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="#4CAF50"/>
+
+        <TextView
+            android:id="@+id/dest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:text="YOU ARE FIT AND HEALTHY"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:id="@+id/diffLay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recommended weight : "
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:textColor="@color/color"/>
+            <TextView
+                android:id="@+id/diff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="87"
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:textColor="@color/color"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="kg"
+                android:gravity="center_horizontal"
+                android:textSize="12sp"
+                android:textColor="@color/color"/>
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/okFit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="OK"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
